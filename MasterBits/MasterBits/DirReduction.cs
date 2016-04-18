@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 
-namespace MySolution
+namespace MasterBits
 {
     public class DirReduction
     {
@@ -32,15 +32,8 @@ namespace MySolution
             }
             return arr;
         }
-    }
-}
 
-namespace MasterBits
-{
-    public class DirReduction
-    {
-
-        public static string[] DirReduc(string[] arr)
+        public static string[] DirReduc2(string[] arr)
         {
             string s = new string(arr.Select(x => x[0]).ToArray());
             while (Regex.Match(s, "NS|EW|SN|WE").Success) s = Regex.Replace(s, "NS|EW|SN|WE", "");

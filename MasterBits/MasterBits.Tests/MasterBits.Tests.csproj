@@ -59,6 +59,8 @@
     <Compile Include="DirReductionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AllInclusiveTests.cs" />
+    <Compile Include="NoBoringTests.cs" />
+    <Compile Include="ToAlternatingCaseTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MasterBits\MasterBits.csproj">
