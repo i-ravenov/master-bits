@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MasterBits
 {
-    public static class StringExt
+    public static partial class StringExt
     {
         public static string ToAlternatingCase(this string s)
         {

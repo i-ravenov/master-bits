@@ -41,7 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllInclusive.cs" />
+    <Compile Include="CountLower.cs" />
     <Compile Include="DirReduction.cs" />
+    <Compile Include="IsAnagram.cs" />
     <Compile Include="NoBoring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToAlternatingCase.cs" />
