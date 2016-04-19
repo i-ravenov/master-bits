@@ -40,6 +40,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Numerics" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -62,6 +63,8 @@
     <Compile Include="NoBoringTests.cs" />
     <Compile Include="ToAlternatingCaseTests.cs" />
     <Compile Include="IsAnagramTests.cs" />
+    <Compile Include="EasyLineTests.cs" />
+    <Compile Include="GridPathTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MasterBits\MasterBits.csproj">
